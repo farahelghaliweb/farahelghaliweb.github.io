@@ -1,0 +1,683 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	max-width: 1250px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background: white;
+}
+
+.header-menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	list-style: none;
+
+}
+
+.header-menu a{
+	margin: 0 20px;
+	color: black;
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+.logo {
+	width: 70px;
+}
+
+.grand-bannier{
+	background: url(https://www.cabinetdentairevittonzola.fr/public/img/big/reportagecouleurWEB5jpg_61d84f2d1c4fb.jpg) rgba(0, 0, 150, 50%);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+
+	background-blend-mode: multiply;
+	padding: 80px 0;
+
+}
+
+.grand-bannier h3{
+	text-transform: uppercase;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 22px;
+
+}
+
+.grand-bannier p{
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 1.4;
+	
+
+	color: white;
+}
+
+.btn{
+	padding: 10px 15px;
+	display: inline-flex;
+	text-decoration: none;
+	letter-spacing: 1px;
+	background: #0095ff85;
+	color: white;
+	font-size: 20px;
+}
+.btn2{
+	padding: 10px 15px;
+	display: inline-flex;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: transparent;
+	color: white;
+	border: 3px solid #0095ff85;
+	font-size: 20px;
+
+}
+
+.double-slider{
+
+	background-color: #d3d3d324;
+}
+.container{
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 100px;
+}
+
+
+
+
+.position{
+	
+	position: absolute;
+	background: transparent;
+	left: 50px;
+	bottom: 20px;
+	width: 200px;
+}
+
+.double-slider h1{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 35px;
+	font-family: 'Sigmar', cursive;
+	color: black;
+}
+
+.ds-nav h2{
+	color: black;
+	font-size: 15px;
+
+}
+.ds-top .item{
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.ds-nav .item{
+    display: flex;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	
+}
+
+
+.slick-arrow{
+	width: 40px;
+	height: 40px;
+	padding: 4px;
+	font-size: 0;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #eee;
+}
+
+.slick-prev{
+	left: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slick-prev:before{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	transform: translateX(10px) rotate(45deg);
+	
+}
+
+.slick-next{
+	
+	right: 5px;
+}
+.slick-next:before{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	transform: translateX(10px) rotate(220deg);
+	
+
+}
+
+
+.petit-bannier{
+	background: url(https://www.lefildentaire.com/wp-content/uploads/2014/03/relation-patient-praticien.jpg) rgba(0, 0, 150, 30%);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	background-blend-mode: multiply;
+	padding: 30px 0;
+
+
+
+}
+
+.petit-bannier p{
+	font-family: 'Sigmar', cursive;
+	font-size: 25px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+
+.section-header{
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	font-family: 'Sigmar', cursive;
+}
+
+
+.cabinet-dentaire{
+	background-color: #d3d3d324;
+	
+	padding: 60px 0;
+
+}
+
+.cabinet-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cabinet-dentaire a{
+	width: 25%;
+	margin-bottom: 15px;
+	padding: 4px;
+}
+
+:root {
+  --color: #3c3163;
+  --transition-time: 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Open Sans';
+  background: #fafafa;
+}
+
+a {
+  color: inherit;
+}
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card {
+  font-family: 'Heebo';
+  --bg-filter-opacity: 0.5;
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+ 
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.card p {
+  font-size: 0.75em;
+  font-family: 'Open Sans';
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card .tags {
+  display: flex;
+}
+
+.card .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+
+.card:hover .tags .tag {
+  background: var(--color);
+  color: white;
+}
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+
+.card:before, .card:after {
+  content: '';
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all, var(--transition-time);
+  transition-timing-function: ease-in-out;
+}
+
+.card:before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+}
+
+.card:after {
+  background: white;
+  width: 200%;
+  height: 200%;
+}
+
+.card:hover {
+  color: var(--color);
+}
+
+.card:hover:before, .card:hover:after {
+  transform: scale(1);
+}
+
+
+h1{
+	font-size: 45px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: 'Sigmar', cursive;
+
+}
+
+.about{
+	background:#d3d3d324 ;
+	padding:60px 0;
+
+}
+
+.droite h4{
+	font-size: 45px;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.droite p{
+	font-size: 25px;
+	margin-bottom: 20px;
+	line-height: 1.4;
+	color: black;
+}
+.parent-flex{
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.gauche{
+	
+	width: 48%;
+	background-image: url(https://www.labelia.fr/wp-content/uploads/2021/09/prestation_0007_Labelia-reportage-me%CC%81tier-Charbonnie%CC%80re-HD-07841.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+.droite{
+	
+	width: 48%;
+}
+
+.container-dentaire{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+footer{
+
+	padding: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(https://www.cabinetdentairevittonzola.fr/public/img/big/reportagecouleurWEB5jpg_61d84f2d1c4fb.jpg) rgba(0, 0, 50, 80%);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	
+}
+
+.footer-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 50px;
+	margin-bottom: 15px;
+}
+
+.footer-col h5{
+	margin-bottom: 15px;
+	font-size: 30px;
+	color: white;
+}
+
+ p{
+	color: white;
+	margin-bottom: 20px;
+
+}
+
+.menu-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	
+}
+
+.footer-col .logo{
+	margin-bottom: 25px;
+
+
+}
+
+.menu-footer li{
+	list-style: none;
+}
+
+.menu-footer a {
+	color: white;
+
+}
+
+.menu-footer i {
+	display: flex;
+	font-size: 15px ;
+}
+
+h3{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+form {
+	color: white;
+	margin-bottom: 25px;
+}
+.footer-col i {
+	font-size: 20px;
+	color: white;
+	margin-left: 15px;
+}
+
+
+.simple-bannier{
+	background: url(https://www.parapharmadirect.com/files/thumbs/catalog/categories/images/category-img/i8lcsa9pt9vivtoj7geana-1-8-2.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+
+	
+	padding: 80px 0;
+
+}
+
+.simple-bannier h3 {
+	font-size:40px ;
+	color:  #06064c;
+	margin-bottom: 15px;
+}
+
+.simple-bannier p {
+	font-size: 20px;
+	color: black;
+	
+}
+
+.simple-bannier h2{
+	font-size: 40px;
+	color: #06064c;
+}
+
+.formation{
+	background-color: #80808024;
+	
+}
+
+.formation h3{
+	font-size: 35px;
+	color:  #06064c;
+	margin-bottom: 15px;
+}
+
+.formation p{
+	font-size: 20px;
+	color: black;
+}
+
+.produit{
+	background-color: #80808024;
+
+}
+
+.formation-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.formation-gauche{
+	width: 70%;
+	background-image: url(https://img.freepik.com/photos-gratuite/jeune-patiente-bouche-ouverte-examinant-inspection-dentaire-au-bureau-du-dentiste_496169-976.jpg?w=2000);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+
+
+}
+
+.formation-droite{
+	width: 30%;
+	text-align: center;
+
+}
+
+.formation-droite h4{
+	font-size: 50px;
+	color:  #06064c;
+	margin-bottom: 18px;
+}
+
+.formation-droite h6{
+	font-size: 22px;
+	color:  #06064c;
+	margin-bottom: 18px;
+}
+
+
+.dentist{
+	background-color: #80808024;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.dentist h2{
+	font-size: 60px;
+}
+
+.dentist h3{
+	font-size: 20px;
+}
+
+.section-header{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.dentist-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card-dentist{
+	width: 30%;
+	margin-bottom: 50px;
+}
+
+.card-dentist .image{
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.card-dentist .info{
+	background: white;
+	padding: 10px 10px 25px;
+	text-align: center;
+}
+
+.card-dentist .info h4{
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+
+
+
+
+.card-dentist-1 .image{
+	background-image:url(https://us.123rf.com/450wm/anatoliygleb/anatoliygleb1705/anatoliygleb170500091/77340176-portrait-de-beau-dentiste-de-sexe-masculin-dans-le-cabinet-dentaire-morden-m%C3%A9decin-portant-l.jpg?ver=6);
+}
+
+.card-dentist-2 .image{
+	background-image:url(https://www.eurodentaire.com/wp-content/uploads/2015/09/dentiste.jpg);
+}
+
+.card-dentist-3 .image{
+	background-image:url(https://fedsante-production.s3.amazonaws.com/system/image/name_type/39/compress_1533138871.jpg);
+}
+
+.card-dentist-4 .image{
+	background-image:url(https://thumbs.dreamstime.com/b/dentiste-portrait-docteur-de-jeune-femme-%C3%A0-la-clinique-dentaire-voiture-de-dents-61067187.jpg);
+}
+
+.card-dentist-5 .image{
+	background-image:url(https://www.centre-dentaire-serenite.fr/uploads/media/9/1599640749/9LfWPdf3va_1599640749.jpg);
+}
+
+.card-dentist-6 .image{
+	background-image:url(https://www.smilepartner.ch/app/uploads/2022/07/dentiste-dr-mercz-1200x720.jpg);
+}
+
+
+
+
+
+
+
+
+
+
