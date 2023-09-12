@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+h2{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-family: 'Barriecito', cursive;
+	text-transform: uppercase;
+
+}
+
+h3{
+	font-size: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+img{
+	max-width: 98%;
+}
+
+.container{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+header{
+	background: black;
+
+}
+
+.burger{
+	display: none;
+}
+
+.burger i{
+	color: pink;
+	font-size: 30px;
+}
+
+.nav-flex{
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+}
+
+.logo{
+	width: 100px;
+}
+
+
+.logo a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+
+
+
+.menu-liste{
+	list-style: none;
+	display: flex;
+}
+
+.menu-liste li{
+	margin-left: 40px;
+}
+
+.menu-liste  li a{
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+	font-size: 25px;
+	
+	font-family: 'Barriecito', cursive;
+
+}
+
+.menu-liste li a:hover{
+	color: hotpink;
+}
+
+.petit-bannier{
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	background-blend-mode: multiply;
+	padding: 60px 0;
+}
+
+.droite h1{
+	font-size: 45px;
+	color: white;
+	margin-bottom: 25px ;
+
+}
+.droite p{
+	color: white;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.parent-flex{
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.gauche{
+	
+	width: 48%;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+.droite{
+	
+	width: 48%;
+}
+
+
+
+.projet1{
+	background-image: url(https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/279453465_396953019103508_6078150664143354029_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_ohc=XUkKuveADtUAX_NG3km&_nc_oc=AQmClzN9Vzb76SgnMGK5T4if1rCF14GQs_nuR9g7-h1VXjvAMfQg2mpM-AyRx3CbpcE&_nc_ht=scontent-lga3-2.xx&oh=00_AfAAeIhd3Lz0WJ6ZTwO9URuQrVOmp0F6sX26RcYdw1E0MA&oe=65068066);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	text-align: center;
+	min-height: 600px;
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+	
+}
+
+.textbox{
+	align-items: center;
+	padding: 40px;
+	
+	background-color: rgba(91 118 130 / 70%);
+
+}
+
+.projet2{
+	background-image: url(https://www.cabinetdentairevittonzola.fr/public/img/big/reportagecouleurWEB5jpg_61d84f2d1c4fb.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	text-align: center; 
+	min-height: 600px;
+    background-attachment: fixed; 
+   background-repeat: no-repeat;
+}
+
+.projet3{
+	background-image: url(https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/dossier-de-la-redac/top-10-les-glaces-de-l-ete/22321404-63-fre-FR/Les-nouvelles-glaces-qui-vont-rafraichir-l-ete-2023.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	text-align: center;
+	min-height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.projet4{
+	background-image: url(https://cdn.hellofresh.com/fr/cms/SEO/french-macarons-bce3c2b5.jpg);
+	background-size: cover;
+	background-position: center;  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	text-align: center;
+	min-height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.footer-dark {
+  padding:25px 0;
+  color:#f0f9ff;
+  background-color:black;
+
+}
+
+.footer-dark .logo{
+	text-align: center;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:15px;
+  margin-bottom:0;
+}
+
+
+@media only screen and (max-width: 700px){
+
+	.burger{
+		display: block;
+	}
+
+	.menu-header{
+		display: none;
+	}
+
+	.projet1{
+		height: 50vh;
+	}
+
+	.projet2{
+		height: 50vh;
+	}
+
+	.projet3{
+		height: 50vh;
+	}
+
+	.projet4{
+		height: 50vh;
+	}
+
+	.droite h1{
+	font-size: 30px;
+	color: black;
+	
+
+}
+.droite p{
+	font-size: 12px;
+	color: black;
+} 
+
+.parent-flex{
+	
+	display:block;
+	} 
+
+	.gauche{
+	
+	width: 100%;
+	
+}
+
+.droite{
+	
+	width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+

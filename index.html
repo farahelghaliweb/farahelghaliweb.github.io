@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<nav class="nav-flex">
+				<div class="logo">
+					<img src="https://media.istockphoto.com/id/1314594213/vector/f-letter-based-logo.jpg?s=612x612&w=0&k=20&c=ANRYd1XplkaEXNecxyXdQZiAg1QfUfvwRXbWD8W-v8c=">
+				</div>
+
+			    <div class="burger">
+				    <i class="fa-solid fa-bars"></i>
+				</div>
+
+				<div class="menu-header">
+					<ul class="menu-liste">
+						<li>
+							<a href="">PROJECTS</a>
+						</li>
+						<li>
+							<a href="">CONTACT</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa-brands fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="petit-bannier">
+		<div class="container">
+
+			<div class="parent-flex">
+
+				<div class="gauche">
+					<img src="farah.jpg" alt="">
+				</div>
+				<div class="droite">
+					
+					<h1>I'm Farah Elghali
+					<br> A webdesigner
+					<br>based in Canada. </h1>
+
+					<p>Je suis une webdesiger, j'ai suis specialisé en HTML,CSS,WORDPRESS</p>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="projet1" 
+	>
+
+
+		<div class="textbox">
+			<h2>projet d'entreprise d'architecture </h2>
+			<h3>WORDPRESS / HTML / CSS</h3>	
+		</div>
+	</section>
+
+	<section class="projet2" >
+
+		<div class="textbox">
+			<h2>projet cabinet dentaire</h2>
+			<h3>JAVASCRIPT / HTML  /CSS</h3>	
+		</div>
+	</section>
+
+	<section class="projet3">
+		
+		<div class="textbox">
+			<h2>projet glacerie</h2>
+			<h3>WORDPRESS / HTML  /CSS</h3>	
+		</div>
+	</section>
+
+	<section class="projet4">
+		<div class="textbox">
+			<h2>projet de patesserie </h2>
+			<h3>JAVASCRIPT / HTML  /CSS</h3>	
+		</div>
+	</section>
+
+	<div class="footer-dark">
+	        <footer>
+	            <div class="container">
+
+	                    <div class="col item social">
+	                    	<a href="">
+								<i class="fa-brands fa-facebook"></i>
+							</a>
+
+							<a href="">
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+
+							<a href="">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+
+							<a href="">
+								<i class="fa-solid fa-envelope"></i>
+							</a>  	
+	                </div>
+	                <p class="copyright">farahghali95@gmail.com/Company Name © 2023</p>
+	            </div>
+	        </footer>
+	    </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script>
+
+
+
+		function parallax() {
+
+		    var $slider = document.getElementById("slider");
+
+		 
+
+		    var yPos = window.pageYOffset / $slider.dataset.speed;
+
+		    yPos = -yPos;
+
+
+		    var coords = '0% '+ yPos + 'px';
+
+
+		    $slider.style.backgroundPosition = coords;
+
+		}
+
+		 
+
+		window.addEventListener("scroll", function(){
+
+		    parallax();    
+
+		});
+
+		
+	</script>	 
+	
+</body>
+</html>
