@@ -1,0 +1,324 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2{
+	font-size: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	padding: 10px;
+	font-family: 'Martian Mono', monospace;
+
+}
+
+h4{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+
+
+img{
+     max-width: 80%;
+}
+
+.header{
+       background: white;
+}
+
+
+.container {
+
+     max-width: 900px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 90%;
+
+}
+
+.burger{
+	display: none;
+}
+
+.burger i{
+	color: pink;
+	font-size: 30px;
+}
+
+.nav-flex{
+    height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	width: 100px;
+}
+
+.menu-header{
+     background: white;
+     padding: 30px;
+
+}
+
+.menu-list{
+	display: flex;
+	list-style: none;
+}
+
+.menu-list li{
+	margin-left: 40px;
+}
+
+.menu-list li a{
+	color: black;
+	transition: 1s;
+	text-decoration: none;
+	font-family: 'Martian Mono', monospace;
+}
+
+.menu-list li a:hover{
+	color: red;
+}
+
+
+.banner{
+	background-image: url(https://florianecuisine.com/wp-content/uploads/2017/07/macarons.jpg);
+	background-size: cover;
+	background-position: center;
+	height: calc(100vh - 80px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.textbox{
+	align-items: center;
+}
+
+.nouveautes{
+	background: lightblue;
+	padding: 60px 0;
+}
+
+.parent-grid{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 15px;
+}
+
+.card-nouveaute{
+	background: pink;
+}
+
+.card-nouveaute .image{
+	height: 250px;
+	background-size: cover;
+	background-position:center;
+
+}
+
+.about{
+ 	background: rosybrown;
+ 	padding: 80px 0;
+ }
+
+
+
+ .parent-flex{
+ 	display: flex;
+ 	gap: 40px;
+ }
+
+ .gauche{
+ 	width: 50%;
+ 	background-image: url(https://www.mont-royal.net/image/1/987/0/uploads/site/melissa-st-arnaud-edited2-fr-1550256485.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 300px;
+
+ }
+
+ .droite{
+ 	width: 50%;
+ }
+
+ .btn{
+	display: inline-block;
+	background: #df4468;
+	color: black;
+	padding: 10px;
+	text-decoration: none ;
+	box-shadow: 2px 2px 8px #000000;
+	border-radius: 6px;
+}
+
+.produits{
+	background: floralwhite;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.produits h2{
+	font-size: 25px;
+	margin-bottom: 15px;
+} 
+
+.produits p{
+	font-size: 20px;
+}
+
+.grand-banner{
+	background-image: url(https://voir.ca/voir-content/uploads/2019/07/pointg;1200x630.jpg);
+	background-size: cover;
+	background-position: center;
+	height: calc(100vh - 80px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 0;
+
+}
+
+.grand-banner h1{
+	font-size: 40px;
+}
+
+.produits img {
+	margin-bottom: 20px;
+}
+
+.card-collection h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+ .services{
+ 	background: white;
+ 	padding: 60px ;
+ }
+
+ .service-flex{
+ 	display: flex;
+ 	justify-content: space-between;
+
+ }
+
+ .service-gauche{
+ 	width: 100%;
+ 	background-image: url(https://whattocooktoday.com/wp-content/uploads/2021/11/canele-6.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 250px;
+ 	margin-bottom: 20px;
+
+ }
+.service-droit{
+ 	width: 100%;
+ 	background-image: url(https://cdn.shopify.com/s/files/1/1539/8471/files/madeleine_page_d_accueil_ombre_577eea11-b020-4b92-acac-3e427b63a561_1024x1024.png?v=1613539897);
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 250px;
+ 	margin-bottom: 20px;
+ }
+
+
+.contact{
+ 	background:rosybrown;
+ 	padding: 80px 0;
+ 	text-align: center;
+ }
+
+ .contact h2{
+ 	font-size: 40px;
+ }
+
+ .contact p{
+ 	font-size: 20px;
+ 	margin-bottom: 20px;
+ }
+
+
+ footer{
+	background: lightgrey;
+	padding: 100px 0;
+}
+
+.footer-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 50px;
+}
+
+.menu-footer{
+	list-style: none;
+}
+
+.menu-footer li{
+	margin-bottom: 8px;
+	list-style: none;
+}
+
+.menu-footer a{
+	color: black;
+}
+
+.footer-col h4{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.adress h5{
+	font-size: 18px;
+
+}
+
+.adress{
+	margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 700px){
+
+	.burger{
+		display: block;
+	}
+
+	.menu-header{
+		display: none;
+	}
+
+	.banner{
+		height: 60px;
+	}
+
+	h1{
+        font-size: 25px;
+	}
+
+	h4{
+          font-size: 15px ;
+	}
+
+	.parent-grid{
+	     grid-template-columns: repeat(2, 1fr);
+      }
