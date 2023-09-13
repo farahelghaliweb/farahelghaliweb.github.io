@@ -258,7 +258,7 @@ header{
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 600px){
 
 	.burger{
 		display: block;
@@ -286,13 +286,13 @@ header{
 
 	.droite h1{
 	font-size: 30px;
-	color: black;
+	color: white;
 	
 
 }
 .droite p{
 	font-size: 12px;
-	color: black;
+	color: white;
 } 
 
 .parent-flex{
