@@ -207,6 +207,20 @@ header{
     background-repeat: no-repeat;
 }
 
+.projet5{
+	background-image: url(https://media.lesechos.com/api/v1/images/view/631b55efd9be6c7591116c57/1280x720/0702231096280-web-tete.jpg);
+	background-size: cover;
+	background-position: center;  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	text-align: center;
+	min-height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 
 .footer-dark {
   padding:25px 0;
@@ -281,6 +295,10 @@ header{
 	}
 
 	.projet4{
+		height: 50vh;
+	}
+
+	.projet5{
 		height: 50vh;
 	}
 
